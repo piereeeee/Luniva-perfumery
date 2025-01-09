@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfume Collection</title>
+    <link rel="stylesheet" href="css/style.css">
+<body>
+    <header>
+        <img src="images/Luniva-logo.png" alt="Luniva Perfumery Logo" class="logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="perfumes.html">Perfume Collection</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Perfume Collection</h2>
+        <section>
+            <h3>For Him</h3>
+            <ul>
+                <li>Dior Sauvage - $15 (100ml) <button onclick="addToCart('Dior Sauvage', 15)">Add to Cart</button></li>
+                <li>Versace Eros - $15 (100ml) <button onclick="addToCart('Versace Eros', 15)">Add to Cart</button></li>
+            </ul>
+            <h3>For Her</h3>
+            <ul>
+                <li>Libre Yves Saint Laurent - $15 (100ml) <button onclick="addToCart('Libre Yves Saint Laurent', 15)">Add to Cart</button></li>
+                <li>Coco Mademoiselle - $15 (100ml) <button onclick="addToCart('Coco Mademoiselle', 15)">Add to Cart</button></li>
+            </ul>
+            <h3>Unisex</h3>
+            <ul>
+                <li>Baccarat Rouge - $15 (100ml) <button onclick="addToCart('Baccarat Rouge', 15)">Add to Cart</button></li>
+            </ul>
+        </section>
+        <section id="cart">
+            <h3>Your Cart</h3>
+            <p>Your cart is empty.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Luniva Perfumery. All Rights Reserved.</p>
+    </footer>
+    <script src="js/cart.js"></script>
+</body>
+</html>
